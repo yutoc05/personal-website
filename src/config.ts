@@ -1,5 +1,5 @@
 export const SITE = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
+  website: "https://yutochau.com/", // replace this with your deployed domain
   author: "Yuto Chau",
   profile: "https://yutochau.com/",
   desc: "Yuto Chau's personal portfolio website.",
@@ -9,7 +9,7 @@ export const SITE = {
   postPerIndex: 4,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-  showArchives: true,
+  showArchives: false,
   showBackButton: true, // show back button in post detail
   editPost: {
     enabled: true,
