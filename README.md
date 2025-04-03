@@ -4,4 +4,4 @@ This is my site.
 
 Uses the [AstroPaper](https://github.com/satnaing/astro-paper) theme.
 
-Thanks chief.
+Thanks for stopping by.
