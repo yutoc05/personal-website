@@ -7,7 +7,7 @@ title: "CV"
 
 - Software QA Engineer @ Orion Health, Health811
 - Software Engineer @ Waterloo Aerial Robotics Group, Autonomy
-- QA Project Lead @ HosTalky
+- Microsoft Azure & AI Research Intern @ University of Waterloo
 
 ## Education
 
