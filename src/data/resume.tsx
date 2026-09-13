@@ -12,8 +12,7 @@ export const DATA = {
     "Broadly interested in AI, developer tools, and software design. Off the clock: piano, travel, and geoguessr. I love going on random side quests.",
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "yuto5@outlook.com",
     social: {
       GitHub: {
         name: "GitHub",
