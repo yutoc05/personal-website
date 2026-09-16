@@ -56,28 +56,10 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
+      title: "PokeFood",
+      href: "https://github.com/derzz/pokefood",
       description:
-        "With the release of the OpenAI GPT Store, I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Turns uploaded food photos into AI-classified virtual pets that can battle other users' creations",
     },
   ],
 } as const;
