@@ -1,5 +1,4 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Yuto Chau",
@@ -7,7 +6,6 @@ export const DATA = {
   description: "Computer Science @ UWaterloo",
   summary:
     "Broadly interested in AI, developer tools, and software design. Off the clock: piano, travel, and geoguessr. I love going on random side quests.",
-  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     social: {
       GitHub: {
