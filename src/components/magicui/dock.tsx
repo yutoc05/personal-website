@@ -51,7 +51,7 @@ const Dock = ({
         onMouseMove={(e) => mouseX.set(e.pageX)}
         onMouseLeave={() => mouseX.set(Infinity)}
         className={cn(
-          "mx-auto w-max h-full flex items-end justify-center overflow-visible rounded-full border",
+          "w-max h-full flex items-end justify-center overflow-visible rounded-full border",
           className,
         )}
       >
