@@ -5,8 +5,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
-
-const BLUR_FADE_DELAY = 0.04;
+import { BLUR_FADE_DELAY } from "@/lib/constants";
 
 export default function Page() {
   return (
