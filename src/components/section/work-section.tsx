@@ -46,7 +46,7 @@ export default function WorkSection() {
                       className={cn(
                         "absolute h-3.5 w-3.5 shrink-0 text-muted-foreground stroke-2 transition-all duration-300 ease-out",
                         "translate-x-0 opacity-0",
-                        "group-hover:translate-x-1 group-hover:opacity-100"
+                        "group-hover:translate-x-1 group-hover:opacity-100",
                       )}
                     />
                   </span>
