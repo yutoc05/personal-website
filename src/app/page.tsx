@@ -9,7 +9,7 @@ import { BLUR_FADE_DELAY } from "@/lib/constants";
 
 export default function Page() {
   return (
-    <main className="flex flex-col gap-14 relative">
+    <main className="flex flex-col gap-8 relative">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
@@ -32,14 +32,14 @@ export default function Page() {
       <section id="about">
         <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 3}>
-            <div className="prose max-w-full text-pretty font-sans leading-relaxed text-muted-foreground dark:prose-invert">
+            <div className="max-w-full text-pretty font-sans text-sm leading-relaxed text-muted-foreground">
               <Markdown>{DATA.summary}</Markdown>
             </div>
           </BlurFade>
         </div>
       </section>
       <section id="work">
-        <div className="flex min-h-0 flex-col gap-y-6">
+        <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 4}>
             <h2 className="text-xl font-bold">Work</h2>
           </BlurFade>
@@ -49,11 +49,11 @@ export default function Page() {
         </div>
       </section>
       <section id="projects">
-        <div className="flex min-h-0 flex-col gap-y-6">
+        <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 6}>
             <h2 className="text-xl font-bold">Projects</h2>
           </BlurFade>
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-5">
             {DATA.projects.map((project, index) => (
               <BlurFade
                 key={project.title}

@@ -5,7 +5,7 @@ export const DATA = {
   url: "https://www.yutochau.com",
   description: "Computer Science @ UWaterloo",
   summary:
-    "Broadly interested in AI, developer tools, and software design. Off the clock: piano, travel, and geoguessr. I love going on random side quests.",
+    "Broadly interested in AI, developer tools, and software design.\n\nOff the clock: piano, travel, and geoguessr.",
   contact: {
     social: {
       GitHub: {
