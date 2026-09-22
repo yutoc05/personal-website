@@ -57,7 +57,7 @@ export const DATA = {
       title: "PokeFood",
       href: "https://github.com/derzz/pokefood",
       description:
-        "Turns uploaded food photos into AI-classified virtual pets that can battle other users' creations",
+        "Turns uploaded food photos into AI-classified virtual pets that can battle other users",
     },
   ],
 } as const;
