@@ -29,7 +29,7 @@ export default function WorkSection() {
     <div className="w-full grid gap-6">
       {DATA.work.map((work) => (
         <a
-          key={work.company}
+          key={`${work.company}-${work.title}`}
           href={work.href}
           target="_blank"
           rel="noopener noreferrer"

@@ -51,7 +51,7 @@ export default function Navbar() {
         <Tooltip>
           <TooltipTrigger asChild>
             <DockIcon className="rounded-3xl cursor-pointer size-full bg-background p-0 text-muted-foreground hover:text-foreground hover:bg-muted backdrop-blur-3xl border border-border transition-colors">
-              <ModeToggle className="size-full cursor-pointer" />
+              <ModeToggle className="size-full cursor-pointer after:absolute after:inset-0 after:rounded-full" />
             </DockIcon>
           </TooltipTrigger>
           <TooltipContent
