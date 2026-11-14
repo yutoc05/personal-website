@@ -39,7 +39,7 @@ export default function WorkSection() {
             <div className="flex items-center gap-x-3 flex-1 min-w-0">
               <LogoImage src={work.logoUrl} alt={work.company} />
               <div className="flex-1 min-w-0 gap-0.5 flex flex-col">
-                <div className="font-semibold leading-none flex items-center gap-2">
+                <div className="leading-none flex items-center gap-2">
                   {work.company}
                   <span className="relative inline-flex items-center w-3.5 h-3.5">
                     <ChevronRight
