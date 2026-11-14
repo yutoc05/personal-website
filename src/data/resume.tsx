@@ -4,8 +4,7 @@ export const DATA = {
   name: "Yuto Chau",
   url: "https://www.yutochau.com",
   description: "Computer Science @ UWaterloo",
-  summary:
-    "Broadly interested in AI, developer tools, and software design.\n\nOff the clock: piano, travel, and geoguessr.",
+  summary: "Interested in fast, scalable distributed systems.",
   contact: {
     social: {
       GitHub: {
