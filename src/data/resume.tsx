@@ -34,13 +34,19 @@ export const DATA = {
 
   work: [
     {
+      company: "PlayStation",
+      href: "https://sonyinteractive.com/",
+      title: "Software Engineer",
+      logoUrl: "/playstation.svg",
+    },
+    {
       company: "Geotab",
       href: "https://www.geotab.com/",
       title: "Software Engineer",
       logoUrl: "/geotab.jpeg",
     },
     {
-      company: "Sony PlayStation",
+      company: "PlayStation",
       href: "https://sonyinteractive.com/",
       title: "Software Developer in Test",
       logoUrl: "/playstation.svg",
@@ -53,6 +59,12 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "WatPath",
+      href: "https://github.com/yutoc05/watpath",
+      description:
+        "iOS app routing students across campus through a map-based interface and precise navigation",
+    },
     {
       title: "PokeFood",
       href: "https://github.com/derzz/pokefood",
