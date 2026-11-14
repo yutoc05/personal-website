@@ -9,7 +9,7 @@ import { BLUR_FADE_DELAY } from "@/lib/constants";
 
 export default function Page() {
   return (
-    <main className="flex flex-col gap-8 relative">
+    <main className="flex flex-col relative">
       <section id="hero" className="flex flex-col">
         <BlurFadeText
           delay={BLUR_FADE_DELAY}
@@ -29,7 +29,7 @@ export default function Page() {
           <Markdown>{DATA.summary}</Markdown>
         </BlurFade>
       </section>
-      <section id="work">
+      <section id="work" className="mt-6">
         <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 4}>
             <h2 className="text-xl font-semibold">Work</h2>
@@ -39,7 +39,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-      <section id="projects">
+      <section id="projects" className="mt-8">
         <div className="flex min-h-0 flex-col gap-y-4">
           <BlurFade delay={BLUR_FADE_DELAY * 6}>
             <h2 className="text-xl font-semibold">Projects</h2>
