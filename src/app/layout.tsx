@@ -1,6 +1,5 @@
 import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
-import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import { Analytics } from "@vercel/analytics/react";
@@ -68,26 +67,24 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
-          <TooltipProvider delayDuration={0}>
-            <div className="absolute inset-0 top-0 left-0 right-0 h-[100px] overflow-hidden z-0">
-              <FlickeringGrid
-                className="h-full w-full"
-                squareSize={2}
-                gridGap={2}
-                style={{
-                  maskImage: "linear-gradient(to bottom, black, transparent)",
-                  WebkitMaskImage:
-                    "linear-gradient(to bottom, black, transparent)",
-                }}
-              />
+          <div className="absolute inset-0 top-0 left-0 right-0 h-[100px] overflow-hidden z-0">
+            <FlickeringGrid
+              className="h-full w-full"
+              squareSize={2}
+              gridGap={2}
+              style={{
+                maskImage: "linear-gradient(to bottom, black, transparent)",
+                WebkitMaskImage:
+                  "linear-gradient(to bottom, black, transparent)",
+              }}
+            />
+          </div>
+          <div className="relative z-10 max-w-2xl mx-auto pt-12 sm:pt-24 pb-8 px-6">
+            {children}
+            <div className="mt-8 sm:mt-16">
+              <Navbar />
             </div>
-            <div className="relative z-10 max-w-2xl mx-auto pt-12 sm:pt-24 pb-8 px-6">
-              {children}
-              <div className="mt-8 sm:mt-16">
-                <Navbar />
-              </div>
-            </div>
-          </TooltipProvider>
+          </div>
         </ThemeProvider>
         <Analytics />
       </body>
